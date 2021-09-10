@@ -8,6 +8,7 @@
     <title>Journey Talk</title>
   </head>
   <body>
+    <!---------------------status-bar------------------------->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -19,7 +20,22 @@
       </div>
     </div>
 
-    <main class="welcome-screen"></main>
+    <main class="welcome-screen">
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Journey Talk</h1>
+        <p>
+          If you have a Journey Talk Account, log in with your email or phone
+          number.
+        </p>
+      </header>
+
+      <form class="welcome-btn">
+        <input type="text" , placeholder="Email or phone number." />
+        <input type="password" , placeholder="Password" />
+        <input class="submit_btn" type="submit" , value="Log in" />
+        <input class="submit_btn" type="submit" , value="Sign Up" />
+      </form>
+    </main>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
 @import "reset.css";
 
+@import "welcome.css";
+
 @import "status-bar.css";
+
+@import "variable.css";
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
