@@ -36,17 +36,15 @@
 
 .welcome-btn input:hover {
   cursor: pointer;
-  background-color: aqua;
 }
 
 .welcome-btn input:focus {
-  cursor: pointer;
-  background-color: aqua;
+  background-color: var(--button_color);
 }
 
 .welcome-btn .submit_btn {
   border-radius: 30px;
-  background-color: var(--button_color);
+  background-color: var(--background_color);
   margin-top: 20px;
 }
 
