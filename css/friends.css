@@ -1,0 +1,78 @@
+.friends__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.friends__header-title {
+  font-weight: 600;
+}
+
+.friends__header-icons span {
+  margin: 10px;
+}
+
+.friends-display-link {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background_color);
+  padding: 20px;
+  font-size: 18px;
+}
+
+.friends-display-link i {
+  margin-right: 5px;
+}
+
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.user-component__message {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__column {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-component__column img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  margin-right: 20px;
+}
+
+.user-component__empty {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user-component__music {
+  padding: 5px;
+  border: 1px solid rgba(85, 185, 90, 0.4);
+  border-radius: 10px;
+}
+
+.user-component__music i {
+  color: rgba(85, 185, 90, 0.4);
+}
+
+.friends-screen__border {
+  margin: 30px 0px 20px 0px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+}

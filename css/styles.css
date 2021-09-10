@@ -8,6 +8,19 @@
 
 @import "variable.css";
 
-* {
+@import "friends.css";
+
+@import "nav.css";
+
+html {
   font-family: "Quicksand", sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  padding: 30px;
+  margin-top: 10px;
 }
