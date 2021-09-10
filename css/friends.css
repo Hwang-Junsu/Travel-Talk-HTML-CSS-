@@ -27,7 +27,8 @@
 .user-component {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .user-component__text {
@@ -75,4 +76,8 @@
   margin: 30px 0px 20px 0px;
   padding-top: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.user-component:hover {
+  background-color: var(--background_color);
 }
