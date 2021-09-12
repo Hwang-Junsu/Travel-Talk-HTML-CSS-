@@ -1,0 +1,53 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.find-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 50px;
+  font-size: 13px;
+}
+
+.find-icon i {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.find-advertise {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background_color);
+  font-size: 18px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.find-search-bar__serach-bar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.find-search-bar__serach-bar input {
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid var(--button_color);
+  padding: 10px;
+  padding-left: 50px;
+  background-color: var(--background_color);
+}
+
+.find-search-bar__serach-bar i {
+  position: absolute;
+  bottom: 30%;
+  left: 20px;
+}

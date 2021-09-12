@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  height: 10px;
+}
+
+.header-title {
+  font-weight: 600;
+}
+
+.header-icons span {
+  margin: 8px;
+}

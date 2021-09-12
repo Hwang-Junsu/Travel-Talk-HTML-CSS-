@@ -6,11 +6,17 @@
 
 @import "status-bar.css";
 
+@import "header.css";
+
 @import "variable.css";
 
 @import "friends.css";
 
 @import "nav.css";
+
+@import "chats.css";
+
+@import "find.css";
 
 html {
   font-family: "Quicksand", sans-serif;
