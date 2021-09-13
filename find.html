@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Journey Talk--find</title>
+    <title>Trevel Talk--find</title>
   </head>
   <body>
     <!---------------------status-bar------------------------->
@@ -25,8 +25,8 @@
       <div class="header-icons">
         <span><i class="fas fa-search fa-xs"></i></span
         ><span><i class="fas fa-music fa-xs"></i></span>
-        <span><i class="fas fa-cog fa-xs"></i> </span>
-      </div>
+        <span><a href="settings.html"><i class="fas fa-cog fa-xs"></i> </span>
+        </a></div>
     </header>
     <!-----------------------main---------------------------->
     <main class="main-screen">
@@ -46,7 +46,30 @@
           <input type="text" placeholder="Search shopping tab" />
           <i class="fas fa-search"></i>
         </form>
-        <div class="find-search-bar__recommend"></div>
+        <div class="find-search-bar__recommend">
+          Recommend<i class="fas fa-info-circle"></i>
+          <span>#gopro5</span>
+          <span>#sunglasses</span>
+          <span>#backpack</span>
+        </div>
+      </div>
+
+      <div class="find-border">
+      </div>
+
+      </div>
+
+      <div class="find-shopping-tab">
+        <img
+          src="https://cdn.pixabay.com/photo/2021/09/08/07/18/nature-6605965_960_720.jpg"
+        />
+        <div class="find-shopping-tab__explain">
+          Europe Hotel & Hiking Pakage
+        </div>
+        <div class="find-shopping-tab__subexplain">
+          Enjoy your rest with the beautiful nature.
+        </div>
+        <div class="find-shopping-tab__price"><span>17%</span> 500.00$</div>
       </div>
     </main>
 
@@ -59,7 +82,8 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html"
-            ><i class="far fa-comments"></i
+            ><span class="nav__notification badge">2</span
+              ><i class="far fa-comments"></i
           ></a>
         </li>
         <li class="nav__btn">
@@ -68,7 +92,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-bars"></i></a>
+          <a class="nav__link" href="more.html"><i class="fas fa-bars"></i></a>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,135 @@
+.inchat {
+  background-color: var(--background_color);
+}
+
+.chat__header-title i {
+  margin-right: 20px;
+}
+
+.chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  height: 7px;
+}
+
+.chat__header-title {
+  font-weight: 500;
+}
+
+.chat__header-icons span {
+  margin: 8px;
+}
+
+.chat-component__name {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-component__message {
+  font-size: 19px;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 40px;
+  border-top-left-radius: 0px;
+}
+.chat-component__column {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.chat-component__column img {
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  margin-right: 20px;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  padding: 14px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 25px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 3px;
+  top: 2px;
+}
+
+.reply__column:last-child > i {
+  right: 50px;
+  top: 15px;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reply__column button i {
+  opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 95vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
+}

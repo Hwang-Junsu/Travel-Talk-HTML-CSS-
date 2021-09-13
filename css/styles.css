@@ -18,6 +18,12 @@
 
 @import "find.css";
 
+@import "more.css";
+
+@import "settings.css";
+
+@import "chat.css";
+
 html {
   font-family: "Quicksand", sans-serif;
 }

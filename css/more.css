@@ -1,0 +1,148 @@
+.more-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.more-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 50px;
+  font-size: 13px;
+}
+
+.more-icon i {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.more-icon i:hover {
+  font-size: 45px;
+}
+
+.more-wallet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--background_color);
+  font-size: 13px;
+  height: 200px;
+  margin-bottom: 40px;
+  border: 1px solid var(--button_color);
+}
+
+.more-wallet__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  font-weight: 600;
+}
+
+.more-wallet__header div {
+  margin-right: 50px;
+  margin-left: 40px;
+}
+
+.more-wallet__header:first-child i {
+  margin-left: 10px;
+}
+.more-wallet__header:last-child i {
+  margin-right: 10px;
+}
+
+.more-wallet__balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  font-weight: 600;
+}
+
+.more-wallet__balance div {
+  margin-right: 50px;
+  margin-left: 40px;
+}
+
+.more-wallet__deposit-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  height: 30%;
+  width: 100%;
+}
+
+.more-wallet__deposit-menu div {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.more-wallet__balance span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 7px;
+  background-color: var(--button_color);
+}
+
+.more-border {
+  display: flex;
+  background-color: var(--background_color);
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.more-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.more-local {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.more-weather__column {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+
+.more-weather__column i {
+  font-size: 40px;
+  margin-right: 15px;
+  color: coral;
+}
+
+.more-weather__column i:hover {
+  animation: weatherAnimation 3s ease-in-out infinite;
+}
+
+.more-weather__column span {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+@keyframes weatherAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}

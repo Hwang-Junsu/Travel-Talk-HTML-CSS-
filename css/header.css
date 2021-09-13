@@ -13,3 +13,7 @@
 .header-icons span {
   margin: 8px;
 }
+
+.header-icons span:hover {
+  font-size: 40px;
+}
