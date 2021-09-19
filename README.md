@@ -1,3 +1,3 @@
-# journey-talk
+# travel-talk
 
 graduated assignment
