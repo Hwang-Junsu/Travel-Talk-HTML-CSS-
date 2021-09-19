@@ -31,10 +31,23 @@
   font-size: 16px;
   color: white;
   margin-bottom: 15px;
+  animation: badgeRotation 3s ease-in-out infinite;
 }
 
 .nav__notification {
   bottom: 1px;
   left: 20px;
   position: absolute;
+}
+
+@keyframes badgeRotation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
