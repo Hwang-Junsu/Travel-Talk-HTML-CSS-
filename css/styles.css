@@ -24,6 +24,8 @@
 
 @import "chat.css";
 
+@import "no-mobile.css";
+
 html {
   font-family: "Quicksand", sans-serif;
 }
